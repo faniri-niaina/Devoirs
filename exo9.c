@@ -6,12 +6,15 @@ int main()
     int i,N;
     printf("Entrez N:");
     scanf("%d",&N);
-    i=0;
-    for(i=0;i<N;i+2)
+    while(N<=1)
+    printf("entrez une valeur supérieure à 1:");
+    scanf("%d,&N);
+    
+    for(i=1;i<N;i+2)
     {
         if(i%2==0)
         {
-            i=i+2;
+            
             printf("%d\n",i);
         }
     }
