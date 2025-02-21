@@ -6,12 +6,12 @@ int main()
     int i,N;
     printf("Entrez un nombre entier N:");
     scanf("%d",&N);
-    i=0;
+    printf("Les diviseurs de %d sont:", N)
     for(i=1;i<N;i++)
     {
         if(N%i==0)
         {
-            i=i++;
+            
             printf(" %d\n",i);
         }
     }
